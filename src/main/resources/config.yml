@@ -33,3 +33,15 @@ shop:
 
 messages:
   prefix: "&a[FriendsSMP]&r "
+
+admins: []
+
+jail:
+  world: ""
+  x: 0
+  y: 80
+  z: 0
+
+tpa:
+  cooldown-seconds: 30
+  expire-seconds: 60

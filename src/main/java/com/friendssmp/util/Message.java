@@ -1,6 +1,7 @@
 package com.friendssmp.util;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -16,6 +17,10 @@ public final class Message {
 
     public static void send(CommandSender sender, String message) {
         sender.sendMessage(prefix + color(message));
+    }
+
+    public static void broadcast(String message) {
+        Bukkit.broadcastMessage(prefix + color(message));
     }
 
     public static String color(String message) {

@@ -53,6 +53,47 @@ commands:
   top:
     description: View leaderboards.
     usage: /top <kills|deaths|playtime>
+  jail:
+    description: Jail a player.
+    usage: /jail <player>
+    permission: friendssmp.admin
+  unjail:
+    description: Release a jailed player.
+    usage: /unjail <player>
+    permission: friendssmp.admin
+  tpa:
+    description: Request to teleport to a player.
+    usage: /tpa <player>
+  tpahere:
+    description: Request a player teleport to you.
+    usage: /tpahere <player>
+  tpaccept:
+    description: Accept a teleport request.
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request.
+    usage: /tpdeny
+  review:
+    description: Submit a server review.
+    usage: /review
+  reviews:
+    description: View recent reviews.
+    usage: /reviews
+    permission: friendssmp.admin
+  appeal:
+    description: Show appeal contact information.
+    usage: /appeal
+  setadmin:
+    description: Add a FriendsSMP admin.
+    usage: /setadmin <player>
+    permission: friendssmp.admin
+  removeadmin:
+    description: Remove a FriendsSMP admin.
+    usage: /removeadmin <player>
+    permission: friendssmp.admin
+  performance:
+    description: Open server performance monitor.
+    usage: /performance
 
 permissions:
   friendssmp.admin:
