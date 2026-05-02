@@ -1,0 +1,66 @@
+name: FriendsSMP
+version: '1.0.1'
+main: com.friendssmp.FriendsSMPPlugin
+api-version: '1.21'
+author: FriendsSMP
+description: Teams, light land claims, daily rewards, and stats for small SMP servers.
+
+commands:
+  team:
+    description: Manage your team.
+    usage: /team <create|invite|accept|leave|disband|info|sethome|home>
+    permission: friendssmp.team
+  teamchat:
+    description: Send a message to your team.
+    usage: /teamchat <message>
+    aliases: [tc]
+    permission: friendssmp.team
+  claim:
+    description: Receive a single-use Claim Wand.
+    usage: /claim
+    permission: friendssmp.claim
+  unclaim:
+    description: Unclaim the current chunk.
+    usage: /unclaim
+    permission: friendssmp.claim
+  claims:
+    description: List your claims.
+    usage: /claims
+    permission: friendssmp.claim
+  trust:
+    description: Trust a player in the current claim.
+    usage: /trust <player>
+    permission: friendssmp.claim
+  untrust:
+    description: Remove trust for a player in the current claim.
+    usage: /untrust <player>
+    permission: friendssmp.claim
+  daily:
+    description: Claim your daily reward.
+    usage: /daily
+  balance:
+    description: View your coin balance.
+    usage: /balance
+  pay:
+    description: Send coins to another player.
+    usage: /pay <player> <amount>
+  shop:
+    description: Open or reload the coin shop.
+    usage: /shop [reload]
+  stats:
+    description: View player stats.
+    usage: /stats [player]
+  top:
+    description: View leaderboards.
+    usage: /top <kills|deaths|playtime>
+
+permissions:
+  friendssmp.admin:
+    description: Administrative bypass for FriendsSMP protections.
+    default: op
+  friendssmp.claim:
+    description: Allows claiming and managing trusted players.
+    default: true
+  friendssmp.team:
+    description: Allows using team commands and team chat.
+    default: true

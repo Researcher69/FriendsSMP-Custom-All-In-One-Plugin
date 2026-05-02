@@ -1,0 +1,35 @@
+teams:
+  max-size: 4
+  friendly-pvp-disabled: true
+  home-teleport-cooldown-seconds: 60
+  home-teleport-warmup-seconds: 3
+
+claims:
+  max-per-player: 2
+  max-size: 500
+
+daily:
+  cooldown-hours: 24
+  streak-reset-hours: 48
+  reward-scaling:
+    day-1: 10
+    day-5: 50
+    day-10-plus: 100
+
+shop:
+  prices:
+    blocks:
+      dirt: 1
+      cobblestone: 2
+      deepslate: 3
+    wood:
+      oak: 5
+      birch: 5
+      spruce: 5
+    food:
+      bread: 6
+      carrot: 3
+      sweet_berries: 2
+
+messages:
+  prefix: "&a[FriendsSMP]&r "

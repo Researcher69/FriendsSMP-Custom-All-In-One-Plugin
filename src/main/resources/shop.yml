@@ -1,0 +1,52 @@
+categories:
+  wood:
+    name: Wood
+    slot: 11
+    icon: OAK_LOG
+    items:
+      oak_log:
+        name: Oak Log
+        material: OAK_LOG
+        price: 5
+      birch_log:
+        name: Birch Log
+        material: BIRCH_LOG
+        price: 5
+      spruce_log:
+        name: Spruce Log
+        material: SPRUCE_LOG
+        price: 5
+  blocks:
+    name: Blocks
+    slot: 13
+    icon: GRASS_BLOCK
+    items:
+      dirt:
+        name: Dirt
+        material: DIRT
+        price: 1
+      cobblestone:
+        name: Cobblestone
+        material: COBBLESTONE
+        price: 2
+      deepslate:
+        name: Deepslate
+        material: DEEPSLATE
+        price: 3
+  food:
+    name: Food
+    slot: 15
+    icon: BREAD
+    items:
+      bread:
+        name: Bread
+        material: BREAD
+        price: 6
+      carrot:
+        name: Carrot
+        material: CARROT
+        price: 3
+      sweet_berries:
+        name: Sweet Berries
+        material: SWEET_BERRIES
+        price: 2
